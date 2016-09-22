@@ -1,0 +1,16 @@
+{
+  "name": "@planet9/nibiru",
+  "version": "0.0.1",
+  "description": "aws lambda local emulator",
+  "main": "index.js",
+  "scripts": {
+    "example": "node example/index.js --function test -p event.json -b example",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joe minichino <joe@planet9energy.com>",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "yamljs": "^0.2.8"
+  }
+}
